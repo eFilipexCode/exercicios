@@ -3,11 +3,14 @@
 //que um mês possui 30 dias. 
 
 function calcDias(day, month) {
-    const daysPreviousMonths = (month - 1) * 30;
-    const total = daysPreviousMonths + day;
-    return total;
+    // const daysPreviousMonths = (month - 1) * 30;
+    // const total = daysPreviousMonths + day;
+    // return total;
+
+    return (month + 1) * 30 - day;
 };
 
+console.log(calcDias(30, 1) === 30);
 console.log(calcDias(3, 4) === 93);
 console.log(calcDias(5, 1) === 5);
 console.log(calcDias(30, 9) === 270);

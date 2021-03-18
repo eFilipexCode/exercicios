@@ -8,8 +8,8 @@ function calcValor(qtdP, qtdM, qtdG) {
     const valorM = qtdM * 12;
     const valorG = qtdG * 15;
 
-    const lucro = valorP + valorM + valorG;
-    return lucro;
+    const valorFinal = valorP + valorM + valorG;
+    return valorFinal;
 };
 
 console.log(calcValor(1, 1, 1) === 37);
