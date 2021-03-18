@@ -1,3 +1,3 @@
 # exercicios
 
-Pequena lista com quarenta exercícios para treinamento de TDD.
+Listas de exercícios para treinamento.
