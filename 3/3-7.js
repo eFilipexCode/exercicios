@@ -2,7 +2,6 @@
 
 const getMin = (a, b) => (a < b ? a : b);
 const getMax = (a, b) => (a > b ? a : b);
-const setMiddleNumberIfEqual = (n, least, greater) => n === greater ? greater : least;
 
 function orderNumbers(a, b, c) {
   const least = getMin(getMin(a, b), c);
