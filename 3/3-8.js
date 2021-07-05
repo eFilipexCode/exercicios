@@ -21,8 +21,7 @@ function switchOnStr(str1, str2, str3) {
     case str3:
       aux = str3;
       break;
-  };
-  return [str1, aux];
+  };  return [str1, aux];
 }
 
 function getStringFromCharCode(char, string1, string2, string3) {
