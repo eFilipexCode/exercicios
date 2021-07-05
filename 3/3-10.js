@@ -20,6 +20,7 @@ function isValidDate(day, month, year) {
     return true;
 };
 
+console.log(isValidDate(30, 02, 1988));
 console.log(isValidDate(01, 01, 2000));
 console.log(isValidDate(23, 12, 2012));
 console.log(isValidDate(29, 2, 2012));
