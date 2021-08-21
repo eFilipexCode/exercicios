@@ -5,8 +5,8 @@ const isEven = n => n % 2 === 0;
 const calculateAverage = (sum, total) => total === 0 ? 0 : +(sum / total).toFixed(1);
 
 function getNumbersInfo(arr) {
-    let evenSum = 0;
-    let allSum = 0;
+    let evenSum = 0; // Para calcular a média
+    let allSum = 0; // Para calcula a média
     const output = {
         evenQtd: 0,
         oddQtd: 0,
